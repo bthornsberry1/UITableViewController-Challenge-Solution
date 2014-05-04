@@ -14,13 +14,13 @@
 		919E2DEF191691B900E111BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E2DEE191691B900E111BA /* main.m */; };
 		919E2DF3191691B900E111BA /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E2DF2191691B900E111BA /* BTAppDelegate.m */; };
 		919E2DF6191691B900E111BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919E2DF4191691B900E111BA /* Main.storyboard */; };
-		919E2DF9191691B900E111BA /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E2DF8191691B900E111BA /* BTViewController.m */; };
 		919E2DFB191691B900E111BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919E2DFA191691B900E111BA /* Images.xcassets */; };
 		919E2E02191691B900E111BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E2E01191691B900E111BA /* XCTest.framework */; };
 		919E2E03191691B900E111BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E2DE2191691B900E111BA /* Foundation.framework */; };
 		919E2E04191691B900E111BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E2DE6191691B900E111BA /* UIKit.framework */; };
 		919E2E0C191691BA00E111BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 919E2E0A191691BA00E111BA /* InfoPlist.strings */; };
 		919E2E0E191691BA00E111BA /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E2E0D191691BA00E111BA /* UITableViewController_Challenge_SolutionTests.m */; };
+		919E2E19191694C600E111BA /* BTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E2E18191694C600E111BA /* BTTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		919E2DF1191691B900E111BA /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
 		919E2DF2191691B900E111BA /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
 		919E2DF5191691B900E111BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		919E2DF7191691B900E111BA /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
-		919E2DF8191691B900E111BA /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
 		919E2DFA191691B900E111BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		919E2E00191691B900E111BA /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		919E2E01191691B900E111BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		919E2E09191691B900E111BA /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		919E2E0B191691BA00E111BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		919E2E0D191691BA00E111BA /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		919E2E17191694C600E111BA /* BTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTableViewController.h; sourceTree = "<group>"; };
+		919E2E18191694C600E111BA /* BTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				919E2DF1191691B900E111BA /* BTAppDelegate.h */,
 				919E2DF2191691B900E111BA /* BTAppDelegate.m */,
 				919E2DF4191691B900E111BA /* Main.storyboard */,
-				919E2DF7191691B900E111BA /* BTViewController.h */,
-				919E2DF8191691B900E111BA /* BTViewController.m */,
+				919E2E17191694C600E111BA /* BTTableViewController.h */,
+				919E2E18191694C600E111BA /* BTTableViewController.m */,
 				919E2DFA191691B900E111BA /* Images.xcassets */,
 				919E2DE9191691B900E111BA /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				919E2DF9191691B900E111BA /* BTViewController.m in Sources */,
+				919E2E19191694C600E111BA /* BTTableViewController.m in Sources */,
 				919E2DF3191691B900E111BA /* BTAppDelegate.m in Sources */,
 				919E2DEF191691B900E111BA /* main.m in Sources */,
 			);

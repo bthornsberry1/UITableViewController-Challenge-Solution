@@ -1,5 +1,5 @@
 //
-//  BTViewController.h
+//  BTTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Brett Thornsberry on 5/4/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BTViewController : UIViewController
+@interface BTTableViewController : UITableViewController
 
 @end
